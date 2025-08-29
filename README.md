@@ -52,8 +52,6 @@ sql-sakila-project/
 **Obiettivo:** trovare i clienti con la spesa totale più alta.  
 - Query: [`queries/01_top_customers.sql`](queries/01_top_customers.sql)  
 - Output: [`outputs/01_top_customers.csv`](outputs/01_top_customers.csv)
-  
-- **Raccomandazione:** segmentare top 5% clienti per campagne di up-sell.
      
 | customer_id | first_name | last_name | total_spent |
 | ------------|------------|-----------|-------------|
@@ -67,8 +65,6 @@ sql-sakila-project/
 - Query: [`queries/02_monthly_revenue.sql`](queries/02_monthly_revenue.sql)
 - Output: [`outputs/02_monthly_revenue.csv`](outputs/02_monthly_revenue.csv)
 
-- **Raccomandazione:** verificare stagionalità e promozioni correlate ai picchi.
-
 | month      | total_revenue |
 |------------|---------------|
 | 2005-01-01 | 1540.75       |
@@ -81,8 +77,6 @@ sql-sakila-project/
 - Query: [`queries/03_customer_retention.sql`](queries/03_customer_retention.sql)
 - Output: [`outputs/03_customer_retention.csv`](outputs/03_customer_retention.csv)
 
-- **Raccomandazione:** valutare campagne di ri-engagement dopo X giorni.
-
 | customer_id | first_name | last_name | days_between_rentals |
 |-------------|------------|-----------|----------------------|
 | 112         | SARAH      | SMITH     | 5                    |
@@ -94,8 +88,6 @@ sql-sakila-project/
 **Obiettivo:** identificare sequenze di noleggi consecutivi (giorno per giorno).  
 - Query: [`queries/04_consecutive_rentals.sql`](queries/04_consecutive_rentals.sql)
 - Output: [`outputs/04_consecutive_rentals.csv`](outputs/04_consecutive_rentals.csv)
-
-- **Raccomandazione:** analizzare correlazione tra consecutive rentals e lifetime value.
 
 | customer_id | first_name | last_name | num_consecutive_rentals | start_date | end_date   |
 |-------------|------------|-----------|-------------------------|------------|------------|
