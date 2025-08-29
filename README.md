@@ -38,7 +38,7 @@ sql-sakila-project/
 │ ├── 02_monthly_revenue.csv
 │ ├── 03_customer_retention.csv
 │ └── ...
-│── screenshots/ # Screenshot dei grafici o dashboard (se presenti)
+│── screenshots/ # Screenshot dei grafici ed output tabelle
 │ ├── 01_top_customers_chart.png
 │ ├── 01_top_customers_table.png
 │ ├── 02_monthly_revenue_chart.png
@@ -113,7 +113,6 @@ sql-sakila-project/
 ## Tecnologie
 - **SQL (PostgreSQL)**
 - DBeaver / pgAdmin per l’esecuzione query
-- Power BI (per visualizzazione di alcuni KPI, opzionale)
 
 ---
 
