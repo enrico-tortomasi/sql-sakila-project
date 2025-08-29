@@ -13,8 +13,7 @@ L’obiettivo è mostrare capacità di **analisi dei dati con SQL**, applicando 
 - Database: **Sakila (PostgreSQL)**
 - Tabelle principali: `rental`, `payment`, `customer`, `film`, `film_category`, `category`, `inventory`
 - Dimensioni: ~16.000 noleggi, 599 clienti, 1.000 film
-
-## Dataset - Sakila
+  
 Questo progetto utilizza il database **Sakila**, un dataset open-source mantenuto da PostgreSQL/MySQL come esempio di videonoleggio.  
 Non è incluso nel repository per motivi di spazio.  
 
