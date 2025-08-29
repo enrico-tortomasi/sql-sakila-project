@@ -26,7 +26,7 @@ Dopo l’installazione, le query di questo repo possono essere eseguite direttam
 
 ---
 ## Struttura repo
-
+```
 sql-sakila-project/
 │── queries/ # Tutte le query SQL utilizzate nel progetto
 │ ├── 01_top_customers.sql
@@ -44,6 +44,7 @@ sql-sakila-project/
 │ ├── 02_monthly_revenue_chart.png
 │ └── ...
 │── README.md # Documentazione del progetto
+```
 ---
 
 ## Problemi affrontati:
