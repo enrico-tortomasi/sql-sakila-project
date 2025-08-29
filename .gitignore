@@ -1,0 +1,16 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File temporanei editor/IDE
+*.log
+*.tmp
+*.swp
+.idea/
+.vscode/
+
+# File di database locali
+*.db
+*.sqlite
+*.bak
+
