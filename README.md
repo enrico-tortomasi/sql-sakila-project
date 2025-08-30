@@ -22,7 +22,9 @@ Non è incluso nel repository per motivi di spazio.
 - [Sakila for MySQL (ufficiale)](https://dev.mysql.com/doc/sakila/en/)  
 
 Dopo l’installazione, le query di questo repo possono essere eseguite direttamente.
-
+---
+## ERM
+<img width="1219" height="805" alt="1000054551" src="https://github.com/user-attachments/assets/92194625-5909-436f-ab1b-8502896417e8" />
 ---
 ## Struttura repo
 ```
