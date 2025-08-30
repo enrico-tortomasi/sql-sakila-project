@@ -27,6 +27,7 @@ Dopo l’installazione, le query di questo repo possono essere eseguite direttam
 <img width="1219" height="805" alt="1000054551" src="https://github.com/user-attachments/assets/92194625-5909-436f-ab1b-8502896417e8" />
 ---
 ## Struttura repo
+
 ```
 sql-sakila-project/
 │── queries/ # Tutte le query SQL utilizzate nel progetto
