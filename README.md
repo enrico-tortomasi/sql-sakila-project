@@ -1,4 +1,5 @@
 # SQL Portfolio Project - Sakila Database
+![Completed](https://img.shields.io/badge/Completed-✓-3CB371)
 
 Questo progetto raccoglie query SQL create sul database **Sakila** (database demo di un videonoleggio).  
 L’obiettivo è mostrare capacità di **analisi dei dati con SQL**, applicando tecniche avanzate come:
