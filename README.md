@@ -66,6 +66,9 @@ sql-sakila-project/
 - Output: [`outputs/01_top_customers.csv`](outputs/01_top_customers.csv)
      
 ![Top Customers](screenshots/01_top_customers_table.png)
+
+![Top Customers2](screenshots/01_top_customers_chart.png)
+
 ---
 
 ### 2. Monthly Revenue
@@ -74,6 +77,8 @@ sql-sakila-project/
 - Output: [`outputs/02_monthly_revenue.csv`](outputs/02_monthly_revenue.csv)
   
 ![Monthly Revenue](screenshots/02_monthly_revenue_table.png)
+
+![Monthly Revenue2](screenshots/02_monthly_revenue_chart.png)
 
 ---
 
@@ -84,6 +89,8 @@ sql-sakila-project/
 
 ![Customer Retention](screenshots/03_customer_retention_table.png)
 
+![Customer Retention2](screenshots/03_customer_retention_chart.png)
+
 ---
 
 ### 4. Consecutive Rentals
@@ -93,6 +100,8 @@ sql-sakila-project/
 
 ![Consecutive Rentals](screenshots/04_consecutive_rentals_table.png)
 
+![Consecutive Rentals2](screenshots/04_consecutive_rentals_chart.png)
+
 ---
 
 ### 5. Active 3+ Months
@@ -101,6 +110,8 @@ sql-sakila-project/
 - Output: [`outputs/05_3_months_active.csv`](outputs/05_3_months_active.csv)  
 
 ![Active 3+ Months](screenshots/05_3_months_active_table.png)
+
+![Active 3+ Months2](screenshots/05_3_months_active_chart.png)
 
 ---
 
