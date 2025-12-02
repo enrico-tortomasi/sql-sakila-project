@@ -65,11 +65,7 @@ sql-sakila-project/
 - Query: [`queries/01_top_customers.sql`](queries/01_top_customers.sql)  
 - Output: [`outputs/01_top_customers.csv`](outputs/01_top_customers.csv)
      
-| customer_id | first_name | last_name | total_spent |
-| ------------|------------|-----------|-------------|
-| 112         | SARAH      | SMITH     | 320.50      |
-| 305         | JOHN       | DOE       | 298.75      |
-| ...         | ...        | ...       | ...         |
+![Top Customers](screenshots/01_top_customers_table.png)
 ---
 
 ### 2. Monthly Revenue
