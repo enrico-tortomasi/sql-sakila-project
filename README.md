@@ -35,22 +35,26 @@ Dopo l’installazione, le query di questo repo possono essere eseguite direttam
 
 ```
 sql-sakila-project/
+│
 │── queries/ # Tutte le query SQL utilizzate nel progetto
 │ ├── 01_top_customers.sql
 │ ├── 02_monthly_revenue.sql
 │ ├── 03_customer_retention.sql
 │ └── ...
+│
 │── outputs/ # CSV con i risultati principali delle query
 │ ├── 01_top_customers.csv
 │ ├── 02_monthly_revenue.csv
 │ ├── 03_customer_retention.csv
 │ └── ...
+│
 │── screenshots/ # Screenshot dei grafici ed output tabelle
 │ ├── 01_top_customers_chart.png
 │ ├── 01_top_customers_table.png
 │ ├── 02_monthly_revenue_chart.png
 │ └── ...
-│── README.md # Documentazione del progetto
+│
+└── README.md # Documentazione del progetto
 ```
 ---
 
