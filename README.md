@@ -72,12 +72,9 @@ sql-sakila-project/
 **Obiettivo:** calcolare il fatturato mensile totale.  
 - Query: [`queries/02_monthly_revenue.sql`](queries/02_monthly_revenue.sql)
 - Output: [`outputs/02_monthly_revenue.csv`](outputs/02_monthly_revenue.csv)
+  
+![Monthly Revenue](screenshots/02_monthly_revenue_table.png)
 
-| month      | total_revenue |
-|------------|---------------|
-| 2005-01-01 | 1540.75       |
-| 2005-02-01 | 1623.50       |
-| ...        | ...           |
 ---
 
 ### 3. Customer Retention
@@ -85,11 +82,8 @@ sql-sakila-project/
 - Query: [`queries/03_customer_retention.sql`](queries/03_customer_retention.sql)
 - Output: [`outputs/03_customer_retention.csv`](outputs/03_customer_retention.csv)
 
-| customer_id | first_name | last_name | days_between_rentals |
-|-------------|------------|-----------|----------------------|
-| 112         | SARAH      | SMITH     | 5                    |
-| 305         | JOHN       | DOE       | 7                    |
-| ...         | ...        | ...       | ...                  |
+![Customer Retention](screenshots/03_customer_retention_table.png)
+
 ---
 
 ### 4. Consecutive Rentals
@@ -97,11 +91,8 @@ sql-sakila-project/
 - Query: [`queries/04_consecutive_rentals.sql`](queries/04_consecutive_rentals.sql)
 - Output: [`outputs/04_consecutive_rentals.csv`](outputs/04_consecutive_rentals.csv)
 
-| customer_id | first_name | last_name | num_consecutive_rentals | start_date | end_date   |
-|-------------|------------|-----------|-------------------------|------------|------------|
-| 112         | SARAH      | SMITH     | 4                       | 2005-01-10 | 2005-01-13 |
-| 305         | JOHN       | DOE       | 3                       | 2005-02-01 | 2005-02-03 |
-| ...         | ...        | ...       | ...                     | ...        | ...        |
+![Consecutive Rentals](screenshots/04_consecutive_rentals_table.png)
+
 ---
 
 ### 5. Active 3+ Months
@@ -109,11 +100,7 @@ sql-sakila-project/
 - Query: [`queries/05_3_months_active.sql`](queries/05_3_months_active.sql)
 - Output: [`outputs/05_3_months_active.csv`](outputs/05_3_months_active.csv)  
 
-| customer_id | first_name | last_name | active_months | start_month | end_month  | total_paid |
-|-------------|------------|-----------|---------------|-------------|------------|------------|
-| 112         | SARAH      | SMITH     | 4             | 2024-01-01  | 2024-04-01 | 120.50     |
-| 305         | JOHN       | DOE       | 3             | 2024-02-01  | 2024-04-01 | 98.75      |
-| ...         | ...        | ...       | ...           | ...         | ...        | ...        |
+![Active 3+ Months](screenshots/05_3_months_active_table.png)
 
 ---
 
